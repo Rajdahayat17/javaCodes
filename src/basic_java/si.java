@@ -14,7 +14,7 @@ public class si {
         System.out.print("enter the Time :");
         double t = sc.nextDouble();
 
-        double si = p*r*t/100;
+        double si = p*r*t/100.0;
         System.out.println(si);
     }
 }
