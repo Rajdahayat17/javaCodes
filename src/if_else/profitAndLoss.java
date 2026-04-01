@@ -14,8 +14,9 @@ public class profitAndLoss {
             double profit = (sp-cp);
             System.out.println("profit is "+ profit);
             double profit_p = (profit/cp)*100;
-            System.out.println(profit_p);
-        } else if (sp<cp) {
+            System.out.println(profit_p);}
+
+            else if (sp<cp) {
             double loss = (cp-sp);
             System.out.println("loss is "+  loss );
             double loss_p = (loss/cp)*100;
