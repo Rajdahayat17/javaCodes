@@ -13,6 +13,7 @@ public class DisplayAP {
       }
           System.out.println(" ");
           // 2nd method
+          // without using AP formula
           System.out.println("enter the n");
           int n1 = sc.nextInt();
           int a=2,d=3;
