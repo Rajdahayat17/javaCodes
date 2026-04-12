@@ -8,9 +8,9 @@ public class DisplayAP {
           System.out.println("enter n number");
           int n = sc.nextInt();
           //2,25,8,11......    // 1st method
-          for(int i=2;i<=3*n-1;i+=3){
-              System.out.print(i+" ");
-      }
+//          for(int i=2;i<=3*n-1;i+=3){
+//              System.out.print(i+" ");
+//      }
           System.out.println(" ");
           // 2nd method
           // without using AP formula

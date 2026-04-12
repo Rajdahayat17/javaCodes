@@ -13,13 +13,13 @@ public class displayGP {
         }
         System.out.println(" ");
         // 2nd method
-        // without using AP formula
+        // without using GP formula
         System.out.println("enter the n");
         int n1 = sc.nextInt();
-        int a = 2, d = 3;
+        int a = 1, r = 2;
         for (int i = 1; i <= n1; i++) {
             System.out.print(a + " ");
-            a += d;
+            a *= r;
         }
     }
 }
