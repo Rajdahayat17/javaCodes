@@ -5,21 +5,30 @@ import java.util.Scanner;
 public class displayGP {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("enter n number");
+
+        System.out.println("Enter number of terms:");
         int n = sc.nextInt();
-        //2,25,8,11......    // 1st method
-        for (int i = 2; i <= 3 * n - 1; i += 3) {
-            System.out.print(i + " ");
+
+        int a = 1; // first term
+        int r = 2; // common ratio
+
+        // 🔹 Method 1: Without Formula
+        System.out.println("GP without formula:");
+        int term1 = a;
+        for (int i = 1; i <= n; i++) {
+            System.out.print(term1 + " ");
+            term1 = term1 * r;
         }
-        System.out.println(" ");
-        // 2nd method
-        // without using GP formula
-        System.out.println("enter the n");
-        int n1 = sc.nextInt();
-        int a = 1, r = 2;
-        for (int i = 1; i <= n1; i++) {
-            System.out.print(a + " ");
-            a *= r;
+
+        System.out.println();
+
+        // 🔹 Method 2: Using Formula
+        System.out.println("GP using formula:");
+        for (int i = 1; i <= n; i++) {
+            int term2 = (int)(a * Math.pow(r, i - 1));
+            System.out.print(term2 + " ");
         }
+
+        sc.close();
     }
 }
