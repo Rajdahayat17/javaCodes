@@ -4,23 +4,28 @@ import java.util.Scanner;
 
 public class WAPcheckGivenNoIsPrimeOrNot {
     public static  void main(String[] args){
-       // Scanner sc= new Scanner(System.in);
-        //int n= sc.nextInt();
-       // System.out.println("Enter the number : ");
-        int n = 55;
-        boolean isPrime = true;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number : ");
+        int n = sc.nextInt();
 
-        if(n <= 1) isPrime = false;
+        boolean Prime = true;
 
-        for(int i = 2; i < n; i++){
+        if(n <= 1){
+            Prime = false;
+        }
+
+        for (int i = 2; i <= n - 1; i++){
             if(n % i == 0){
-                isPrime = false;
+                Prime = false;
                 break;
             }
         }
 
-        if(isPrime) System.out.println("Prime");
-        else System.out.println("Not Prime");
-
+        if(Prime){
+            System.out.println("prime number");
+        } else {
+            System.out.println("not prime number");
+        }
+        }
     }
-}
+
