@@ -13,14 +13,12 @@ public class WAPcheckGivenNoIsPrimeOrNot {
         if(n <= 1){
             Prime = false;
         }
-
         for (int i = 2; i <= n - 1; i++){
             if(n % i == 0){
                 Prime = false;
                 break;
             }
         }
-
         if(Prime){
             System.out.println("prime number");
         } else {
