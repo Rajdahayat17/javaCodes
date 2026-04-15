@@ -14,7 +14,7 @@ public class AllLoops {
         }
         System.out.println();
         int z=1;
-        do {
+        do {  // bahut kam use hota hai ye
             System.out.print(z+ " ");
             z++;
         } while (z <= 10);
