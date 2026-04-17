@@ -10,7 +10,7 @@ public class StarRectangleABC {
 
         for (int i = 1; i <= row; i++) { // kitni line hogi
             for (int j = 1; j <= col; j++) { // har line me kitne honge
-                System.out.print((char) (i + 64) + " "); // print AAAA
+                System.out.print((char) (i + 64) + " "); // print AA
             }
             System.out.println();         // moved inside
         }
