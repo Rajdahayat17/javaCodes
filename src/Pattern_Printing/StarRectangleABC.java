@@ -2,7 +2,7 @@ package Pattern_Printing;
 
 import java.util.Scanner;
 
-public class StartRectangle {
+public class StarRectangleABC {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int row = sc.nextInt();
@@ -10,14 +10,14 @@ public class StartRectangle {
 
         for (int i = 1; i <= row; i++) { // kitni line hogi
             for (int j = 1; j <= col; j++) { // har line me kitne honge
-                System.out.print(i +" "); // print 11111
+                System.out.print((char)(i+64)+" "); // print 11111
             }
             System.out.println();         // moved inside
         }
         System.out.println();
-        for (int i = 1; i <= row; i++) { // kitni line hogi
-            for (int j = 1; j <= col; j++) { // har line me kitne honge
-                System.out.print(j +" "); // print 12345
+        for (int i = 1; i <= row; i++) {
+            for (int j = 1; j <= col; j++) {
+                System.out.print((char) (j+96) +" "); // print 12345
             }
             System.out.println();
         }
