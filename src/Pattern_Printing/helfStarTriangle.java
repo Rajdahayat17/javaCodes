@@ -88,3 +88,12 @@ public class helfStarTriangle {
         }
     }
 }
+// iska j<=n+1-i logic
+//| Row (i) | Calculation | j runs till | Output count |
+//        | ------- | ----------- | ----------- | ------------ |
+//        | 1       | 5+1-1 = 5   | 1 → 5       | 5 elements   |
+//        | 2       | 5+1-2 = 4   | 1 → 4       | 4 elements   |
+//        | 3       | 5+1-3 = 3   | 1 → 3       | 3 elements   |
+//        | 4       | 5+1-4 = 2   | 1 → 2       | 2 elements   |
+//        | 5       | 5+1-5 = 1   | 1 → 1       | 1 element    |
+

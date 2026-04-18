@@ -88,3 +88,12 @@ public class StarTriangle {
         }
     }
 }
+
+//for (int j=1; j<=i; j++) iska logic hai
+//| Row (i) | Condition | j runs till | Output count |
+//| ------- | --------- | ----------- | ------------ |
+//| 1       | j <= 1    | 1 → 1       | 1 element    |
+//| 2       | j <= 2    | 1 → 2       | 2 elements   |
+//| 3       | j <= 3    | 1 → 3       | 3 elements   |
+//| 4       | j <= 4    | 1 → 4       | 4 elements   |
+//| 5       | j <= 5    | 1 → 5       | 5 elements   |
