@@ -2,7 +2,7 @@ package Pattern_Printing;
 
 import java.util.Scanner;
 
-public class helfStarTriangle {
+public class halfStarTriangle1 {
     public static void main(String[] args){
         Scanner sc= new Scanner(System.in);
 
