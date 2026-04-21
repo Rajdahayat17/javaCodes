@@ -9,7 +9,7 @@ public class FloydsTriangle {
         int n = sc.nextInt();
 
         int a=1;
-        // ⭐ Star Triangle
+        //  extra variable le k use print karva diya bus
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= i; j++) {
                 System.out.print(a +" ");
