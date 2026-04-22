@@ -97,3 +97,9 @@ public class HalfStarTriangle {
 //| 3       | j <= 3    | 1 → 3       | 3 elements   |
 //| 4       | j <= 4    | 1 → 4       | 4 elements   |
 //| 5       | j <= 5    | 1 → 5       | 5 elements   |
+
+//        *
+//        * *
+//        * * *
+//        * * * *
+//        * * * * *

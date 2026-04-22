@@ -122,3 +122,16 @@ public class TriangleVerticallyFlipped {
         }
     }
 }
+//| Row (i) | Valid j (where i+j>5) | j runs till | Output count | Space count |
+//| ------- | --------------------- | ----------- | ------------ | ----------- |
+//| 1       | j = 5                 | 1 → 5       | 1 element    | 4 spaces    |
+//| 2       | j = 4,5               | 1 → 5       | 2 elements   | 3 spaces    |
+//| 3       | j = 3,4,5             | 1 → 5       | 3 elements   | 2 spaces    |
+//| 4       | j = 2,3,4,5           | 1 → 5       | 4 elements   | 1 space     |
+//| 5       | j = 1,2,3,4,5         | 1 → 5       | 5 elements   | 0 space     |
+
+//                        *
+//                      * *
+//                    * * *
+//                  * * * *
+//                * * * * *

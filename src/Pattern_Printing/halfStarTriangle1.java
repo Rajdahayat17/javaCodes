@@ -97,3 +97,8 @@ public class halfStarTriangle1 {
 //        | 4       | 5+1-4 = 2   | 1 → 2       | 2 elements   |
 //        | 5       | 5+1-5 = 1   | 1 → 1       | 1 element    |
 
+//        * * * * *
+//        * * * *
+//        * * *
+//        * *
+//        *
