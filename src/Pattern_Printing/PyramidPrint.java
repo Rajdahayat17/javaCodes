@@ -16,3 +16,11 @@ public class PyramidPrint {
         }
     }
 }
+//| Row (i) | Spaces (n-i) | Stars (2*i-1) | j runs till (spaces) | j runs till (stars) | Output count |
+//| ------- | ------------ | ------------- | -------------------- | ------------------- | ------------ |
+//| 1       | 5-1 = 4      | 2(1)-1 = 1    | 1 → 4                | 1 → 1               | 4 spaces + 1 star |
+//| 2       | 5-2 = 3      | 2(2)-1 = 3    | 1 → 3                | 1 → 3               | 3 spaces + 3 stars |
+//| 3       | 5-3 = 2      | 2(3)-1 = 5    | 1 → 2                | 1 → 5               | 2 spaces + 5 stars |
+//| 4       | 5-4 = 1      | 2(4)-1 = 7    | 1 → 1                | 1 → 7               | 1 space + 7 stars |
+//| 5       | 5-5 = 0      | 2(5)-1 = 9    | —                    | 1 → 9               | 0 space + 9 stars |
+
