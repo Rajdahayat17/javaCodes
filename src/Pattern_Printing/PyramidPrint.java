@@ -6,13 +6,17 @@ public class PyramidPrint {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int n= sc.nextInt();
-        for (int i=1; i<=n; i++){
-            for (int j=1;j<=n-i;j++){
-                System.out.print("  ");
-            }for (int j=1; j<=2*i-1;j++){
-                System.out.print("* ");
+        for (int i = 1; i <= n; i++) {      // Rows loop → total n lines print hongi
+
+            for (int j = 1; j <= n - i; j++) {   // Spaces loop → har row me left side spaces
+                System.out.print("  ");          // count = n - i
             }
-            System.out.println();
+
+            for (int j = 1; j <= 2 * i - 1; j++) { // Stars loop → pyramid ke stars
+                System.out.print("* ");            // count = 2*i - 1
+            }
+
+            System.out.println();   // Next line me move karega
         }
         for (int i=1; i<=n; i++){
             for (int j=1;j<=n-i;j++){
