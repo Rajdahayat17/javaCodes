@@ -30,6 +30,41 @@ public class PyramidPrint {
             }
             System.out.println();
         }
+
+        for (int i=1; i<=n; i++){
+            for (int j=1;j<=n-i;j++){
+                System.out.print("  ");
+            }for (int j=1; j<=2*i-1;j++){
+                System.out.print((char)(64+i)+" ");
+            }
+            System.out.println();
+        }
+
+        for (int i=1; i<=n; i++){
+            for (int j=1;j<=n-i;j++){
+                System.out.print("  ");
+            }for (int j=1; j<=2*i-1;j++){
+                System.out.print((char)(64+j)+" ");
+            }
+            System.out.println();
+        }
+        for (int i=1; i<=n; i++){
+            for (int j=1;j<=n-i;j++){
+                System.out.print("  ");
+            }for (int j=1; j<=2*i-1;j++){
+                System.out.print((char)(96+i)+" ");
+            }
+            System.out.println();
+        }
+
+        for (int i=1; i<=n; i++){
+            for (int j=1;j<=n-i;j++){
+                System.out.print("  ");
+            }for (int j=1; j<=2*i-1;j++){
+                System.out.print((char)(96+j)+" ");
+            }
+            System.out.println();
+        }
     }
 }
 //| Row (i) | Spaces (n-i) | Stars (2*i-1) | j runs till (spaces) | j runs till (stars) | Output count |
