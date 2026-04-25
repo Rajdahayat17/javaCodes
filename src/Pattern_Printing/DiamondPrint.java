@@ -1,4 +1,10 @@
 package Pattern_Printing;
 
-public class DiamondPrint  {
+import java.util.Scanner;
+
+public class DiamondPrint {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+    }
 }
