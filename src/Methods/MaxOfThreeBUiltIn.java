@@ -9,6 +9,11 @@ public class MaxOfThreeBUiltIn {
         int a= sc.nextInt();
         int b= sc.nextInt();
         int c= sc.nextInt();
-
+        System.out.println("Highest Number : "+ Math.max(Math.max(a,b),c));
+        System.out.println("Min Number : "+ Math.min(Math.min(a,b),c));
     }
 }
+
+
+
+// reuse builty ko badne ke liye fuction ka use karte hai
