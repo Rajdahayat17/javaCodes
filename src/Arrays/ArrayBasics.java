@@ -10,6 +10,11 @@ public class ArrayBasics {
         x[3]=52;
         System.out.println(x[3]);
 
-        //
+        int [] arr = new int [5]; // 4 size ka array
+         arr[0]=5;
+         arr[1]=6;
+         arr[2]=7;
+         arr[3]=-8;
+
     }
 }
