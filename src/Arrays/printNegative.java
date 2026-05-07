@@ -14,7 +14,7 @@ public class printNegative {
         // Store array size in variable n
         int n = sc.nextInt();
 
-        // Create array of size n
+        // Create a dynamic array of size n
         int[] arr = new int[n];
 
         // Ask user to enter array elements
