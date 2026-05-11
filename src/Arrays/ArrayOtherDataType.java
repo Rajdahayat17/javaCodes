@@ -6,7 +6,7 @@ public class ArrayOtherDataType {
         for (int i=0;i< arr.length;i++){
             System.out.println(arr[i]+" ");
         }
-
+        System.out.println();
         String[] arr1={"raj","brajesh","jatin","abhishek","chetan"};
         for (int j=0;j<arr1.length;j++){
             System.out.println(arr1[j]+" ");
