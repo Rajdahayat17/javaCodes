@@ -15,9 +15,9 @@ public class PassingArrayToMethod {
     }
 
     // Method to modify array
-    public static void change(int[] x) {
+    public static void change(int[] y) {
 
         // Change value at index 2
-        x[2] = 99;
+        y[2] = 99;
     }
 }
