@@ -7,7 +7,7 @@ public class SearchInArray {
         int[] arr = {45, 65, 34, 78, 25};
 
         // Element to search
-        int x = 29;
+        int x = 25;
 
         // Traverse array
         for (int i = 0; i < arr.length; i++) {
@@ -16,7 +16,7 @@ public class SearchInArray {
             if (arr[i] == x) {
 
                 // Print message if found
-                System.out.println("Yes Element Present");
+                System.out.println("Yes Element Present at index"+ " "+ i);
 
                 // Stop loop
                 break;
