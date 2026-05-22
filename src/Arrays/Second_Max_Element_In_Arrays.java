@@ -1,6 +1,6 @@
 package Arrays;
 
-public class SecondMaxElementPrintInArrays {
+public class Second_Max_Element_In_Arrays {
 
     public static void main(String[] args) {
 
