@@ -1,6 +1,6 @@
 package Arrays;
 
-public class SearchInArray {
+public class Search_In_Array {
     public static void main(String[] args) {
 
         // Array declaration
