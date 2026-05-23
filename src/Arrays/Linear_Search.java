@@ -1,6 +1,6 @@
 package Arrays;
 
-public class LinearSearch {
+public class Linear_Search {
     public static void main(String[] args) {
         int[] arr = {12,3,27,53,18,62,88,6,53};
         int target = 3;
