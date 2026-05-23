@@ -2,7 +2,7 @@ package Arrays;
 
 import java.util.Scanner;
 
-public class printNegative {
+public class print_Negative {
     public static void main(String[] args) {
 
         // Scanner object for taking user input
