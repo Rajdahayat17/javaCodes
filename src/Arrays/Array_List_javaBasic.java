@@ -50,8 +50,34 @@ public class Array_List_javaBasic {
         // Enhanced for loop / for-each loop
         // Directly accesses elements one by one
         for (int ne : arr) {
-
             System.out.print(ne + " ");
         }
+
+        System.out.println();
+
+        // add(value)
+        // adds new element at the end of ArrayList
+        arr.add(56);
+
+        // Print updated ArrayList
+        System.out.print(arr);
+
+        System.out.println();
+
+        // add(index, value)
+        // inserts element at specific index
+        // existing elements shift to the right
+        arr.add(1, 200);
+
+        // Print updated ArrayList
+        System.out.println(arr);
+
+        // remove(index)
+        // removes element from given index
+        // remaining elements shift left
+        arr.remove(4);
+
+        // Print ArrayList after removal
+        System.out.println(arr);
     }
 }
