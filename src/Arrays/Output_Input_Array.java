@@ -2,7 +2,7 @@ package Arrays;
 
 import java.util.Scanner;
 
-public class OutputInputArray {
+public class Output_Input_Array {
     public static void main(String[] args) {
 
         // Scanner object for user input
