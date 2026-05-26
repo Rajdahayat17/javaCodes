@@ -1,6 +1,6 @@
 package Arrays;
 
-public class PrintMinNoInArray {
+public class Print_Min_No_In_Array {
     public static void main(String[] args) {
 
         // Array declaration and initialization
