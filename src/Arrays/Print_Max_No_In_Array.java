@@ -1,6 +1,6 @@
 package Arrays;
 
-public class PrintMaxNoInArray {
+public class Print_Max_No_In_Array {
     public static void main(String[] args) {
 
         // Array declaration and initialization
