@@ -8,20 +8,18 @@ public class Array_List_javaBasic {
         // Why use ArrayList?
         // Normal arrays have fixed size
         // But ArrayList size can grow or shrink dynamically
-        // ArrayList also provides built-in methods like:
-        // add(), get(), set(), remove(), size()
 
         // ArrayList declaration
         // Integer is wrapper class of int
         ArrayList<Integer> arr = new ArrayList<>();
 
-        // add() inserts elements into ArrayList
+        // add() -> inserts elements into ArrayList
         arr.add(21);
         arr.add(23);
         arr.add(32);
         arr.add(31);
 
-        // get(index) returns element at specific index
+        // get(index) -> returns element at specific index
         System.out.println(arr.get(3));
         System.out.println(arr.get(2));
 
@@ -35,7 +33,7 @@ public class Array_List_javaBasic {
         // Directly print complete ArrayList
         System.out.println(arr);
 
-        // size() gives total number of elements
+        // size() -> gives total number of elements
         int n = arr.size();
 
         // Traverse ArrayList using normal for loop
@@ -60,9 +58,7 @@ public class Array_List_javaBasic {
         arr.add(56);
 
         // Print updated ArrayList
-        System.out.print(arr);
-
-        System.out.println();
+        System.out.println(arr);
 
         // add(index, value)
         // inserts element at specific index
@@ -78,6 +74,32 @@ public class Array_List_javaBasic {
         arr.remove(4);
 
         // Print ArrayList after removal
+        System.out.println(arr);
+
+        // -----------------------------------------
+        // Reverse ArrayList using two-pointer method
+        // -----------------------------------------
+
+        int i1 = 0;                  // starting index
+        int j1 = arr.size() - 1;    // ending index
+
+        while (i1 < j1) {
+
+            // Store left value temporarily
+            int temp = arr.get(i1);
+
+            // Put right value at left side
+            arr.set(i1, arr.get(j1));
+
+            // Put temp value at right side
+            arr.set(j1, temp);
+
+            // Move pointers
+            i1++;
+            j1--;
+        }
+
+        // Print reversed ArrayList
         System.out.println(arr);
     }
 }
