@@ -2,7 +2,7 @@ package Arrays;
 
 import java.util.Arrays;
 
-public class SortArrayBuiltIn {
+public class Sort_Array_BuiltIn {
     public static void main(String[] args) {
 
         // Array declaration and initialization
