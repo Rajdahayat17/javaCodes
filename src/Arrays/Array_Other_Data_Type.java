@@ -1,6 +1,6 @@
 package Arrays;
 
-public class ArrayOtherDataType {
+public class Array_Other_Data_Type {
     public static void main(String[] args) {
         double [] arr= new double[5];
         for (int i=0;i< arr.length;i++){
