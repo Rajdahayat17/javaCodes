@@ -2,7 +2,7 @@ package basic_java;
 
 import java.util.Scanner;
 
-public class areaOfcircle {
+public class area_Of_circle {
     public static void main(String[] args){
      // area of circle formula = pi*r*r
         Scanner sc= new Scanner(System.in); // input from user in runtime
