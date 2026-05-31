@@ -2,7 +2,7 @@ package Arrays;
 
 import java.util.Arrays;
 
-public class ShalowCopyDeepCopy {
+public class Shalow_Copy_DeepCopy {
     public static void main(String[] args) {
 
         int a = 4; // primitive variable (4 bytes)
