@@ -1,6 +1,6 @@
 package Arrays;
 
-public class TwoSum {
+public class Two_Sum {
     public static void main(String[] args) {
 
         // Array declaration
