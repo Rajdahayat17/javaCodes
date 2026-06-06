@@ -2,7 +2,7 @@ package Methods;
 
 import java.util.Scanner;
 
-public class MaxOfThreeBUiltIn {
+public class Max_Of_Three_BUiltIn {
 
     public static void main(String[] args) {
 
