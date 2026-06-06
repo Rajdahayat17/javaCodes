@@ -1,6 +1,6 @@
 package Methods;
 
-public class ReturnIsMandatory {
+public class ReturnIs_Mandatory {
 
     public static void main(String[] args) {
 
