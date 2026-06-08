@@ -1,6 +1,6 @@
 package Loops;
 
-public class AllLoops {
+public class All_Loops {
     public static void main(String[] args) {
         int i=1;
         for(i=1;i<=10;i++){
