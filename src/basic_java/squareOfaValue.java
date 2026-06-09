@@ -3,11 +3,21 @@ package basic_java;
 import java.util.Scanner;
 
 public class squareOfaValue {
-    public static void main(String[] args){
+    public static void main(String[] args) {
+
+        // Create Scanner object to take input from user
         Scanner sc = new Scanner(System.in);
-        int a ;
+
+        // Declare variable to store the input value
+        int a;
+
+        // Ask user to enter a number
         System.out.print("enter value :");
-        a= sc.nextInt();
-        System.out.println("square is :"+a*a);
+
+        // Read the integer entered by the user
+        a = sc.nextInt();
+
+        // Calculate square of the number (a * a) and display it
+        System.out.println("square is :" + a * a);
     }
 }
