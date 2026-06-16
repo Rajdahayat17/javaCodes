@@ -20,6 +20,7 @@ public class Swap {
         // Assign the value of b to a
         a = b;
 
+
         // Assign the stored value of a (temp) to b
         b = temp;
 
