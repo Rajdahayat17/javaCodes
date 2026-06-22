@@ -5,19 +5,37 @@ import java.util.Scanner;
 public class StarCross {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
+        // Input number of rows and columns
         int row = sc.nextInt();
         int col = sc.nextInt();
 
-        // input odd hi dena hai ni to output sahi ni ayega
+        // Input should be odd for a perfectly centered cross
+        // Example: 5x5, 7x7, 9x9
 
+        // Outer loop controls rows
         for (int i = 1; i <= row; i++) {
+
+            // Inner loop controls columns
             for (int j = 1; j <= col; j++) {
-                if (i ==  (row + 1) / 2 || j==  (col + 1) / 2 ) {
-                    System.out.print("* "); // odd row → numbers
+
+                // Print '*' if:
+                // 1. Current row is the middle row
+                // OR
+                // 2. Current column is the middle column
+                //
+                // (row + 1) / 2 gives the middle row number
+                // (col + 1) / 2 gives the middle column number
+                if (i == (row + 1) / 2 || j == (col + 1) / 2) {
+                    System.out.print("* ");
                 } else {
-                    System.out.print("  "); // even row → A B C
+
+                    // Print spaces at all other positions
+                    System.out.print("  ");
                 }
             }
+
+            // Move to the next line after printing one row
             System.out.println();
         }
     }
