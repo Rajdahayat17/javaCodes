@@ -5,16 +5,31 @@ import java.util.Scanner;
 public class Rhombus {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
+        // Input the size of the rhombus
         int n = sc.nextInt();
 
-        // ⭐ Star Pattern
+        // Outer loop controls the number of rows
         for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= n-i; j++) {
-                System.out.print(" "+" ");
+
+            // Print leading spaces in each row
+            // Number of spaces decreases as the row number increases
+            // Row 1 -> n-1 spaces
+            // Row 2 -> n-2 spaces
+            // ...
+            // Row n -> 0 spaces
+            for (int j = 1; j <= n - i; j++) {
+                System.out.print(" " + " ");
             }
-            for (int j=1;j<=n;j++){
-                System.out.print("*"+" ");
+
+            // Print n stars in every row
+            // Since the number of stars remains constant,
+            // all rows have the same width
+            for (int j = 1; j <= n; j++) {
+                System.out.print("*" + " ");
             }
+
+            // Move to the next line after printing one row
             System.out.println();
         }
     }
