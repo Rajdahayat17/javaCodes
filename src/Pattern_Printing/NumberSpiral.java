@@ -8,17 +8,44 @@ public class NumberSpiral {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 
+        // Total rows and columns = (2*n - 1)
+        // Example: n = 4
+        // Size of matrix = 7 x 7
+
+        // Outer loop controls rows
         for (int i = 1; i <= 2 * n - 1; i++) {
+
+            // Inner loop controls columns
             for (int j = 1; j <= 2 * n - 1; j++) {
 
+                // Store current row and column numbers
                 int a = i;
                 int b = j;
 
-                if (i > n) a = 2 * n - i;
-                if (j > n) b = 2 * n - j;
+                // For rows below the center,
+                // convert them into mirrored values
+                //
+                // Example (n = 4):
+                // Row numbers become:
+                // 1 2 3 4 3 2 1
+                if (i > n)
+                    a = 2 * n - i;
 
+                // For columns after the center,
+                // convert them into mirrored values
+                //
+                // Example:
+                // Column numbers become:
+                // 1 2 3 4 3 2 1
+                if (j > n)
+                    b = 2 * n - j;
+
+                // Print the smaller value of a and b
+                // This creates concentric layers of numbers
                 System.out.print(Math.min(a, b) + " ");
             }
+
+            // Move to the next row
             System.out.println();
         }
     }
