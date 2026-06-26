@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class nestedIfElse {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
         System.out.println("enter 1st number");
         int a = sc.nextInt();
 
@@ -16,16 +17,38 @@ public class nestedIfElse {
         System.out.println("enter 3rd number");
         int c = sc.nextInt();
 
-        if (a>=b){
-            if(a>=c){
+        // First compare a with b
+        if (a >= b) {
+
+            // If a is greater than or equal to b,
+            // then compare a with c
+            if (a >= c) {
+
+                // a is greater than or equal to both b and c
+                // So, print a
                 System.out.println(a);
             }
-            else System.out.println(c);
-        }else {
-            if (b>=c){
+
+            // If c is greater than a,
+            // then c is the greatest number
+            else
+                System.out.println(c);
+
+        } else {
+
+            // If b is greater than a,
+            // then compare b with c
+            if (b >= c) {
+
+                // b is greater than or equal to both a and c
+                // So, print b
                 System.out.println(b);
             }
-            else System.out.println(c);
+
+            // If c is greater than b,
+            // then c is the greatest number
+            else
+                System.out.println(c);
         }
     }
 }
