@@ -2,7 +2,7 @@ package Loops;
 
 import java.util.Scanner;
 
-public class countDigitsNumber {
+public class count_Digits_Number {
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
         int n= sc.nextInt();
