@@ -2,7 +2,7 @@ package Loops;
 
 import java.util.Scanner;
 
-public class printSumofDigits {
+public class print_Sum_of_Digits {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("enter the number");
