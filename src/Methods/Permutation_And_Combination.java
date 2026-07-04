@@ -2,7 +2,7 @@ package Methods;
 
 import java.util.Scanner;
 
-public class PermutationAndCombination {
+public class Permutation_And_Combination {
 
     // Method to calculate factorial of a number
     public static long fact(int x) {
