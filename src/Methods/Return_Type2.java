@@ -1,6 +1,6 @@
 package Methods;
 
-public class ReturnType2 {
+public class Return_Type2 {
 
     // Ye method int return type ka hai aur ek parameter 'a' leta hai
     public static int rahul(int a) {
