@@ -2,7 +2,7 @@ package Pattern_Printing;
 
 import java.util.Scanner;
 
-public class BridgePrint {
+public class Bridge_Print {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
