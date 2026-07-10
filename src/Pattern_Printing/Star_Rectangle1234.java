@@ -2,7 +2,7 @@ package Pattern_Printing;
 
 import java.util.Scanner;
 
-public class StarRectangle1234 {
+public class Star_Rectangle1234 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int row = sc.nextInt();
