@@ -1,6 +1,6 @@
 package Methods;
 
-public class PassByValueAndRefence {
+public class Pass_ByValueAndRefence {
 
     // Ye method ek parameter 'x' leta hai
     public static void change(int x) {
