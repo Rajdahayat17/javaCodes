@@ -27,7 +27,6 @@ public class Array_List_javaBasic {
         // updates value at given index
         arr.set(2, 44);
 
-
         // Print updated element
         System.out.println(arr.get(2));
 
