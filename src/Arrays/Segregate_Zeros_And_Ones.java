@@ -2,7 +2,7 @@ package Arrays;
 
 import java.util.Arrays;
 
-public class SegregateZerosAndOnes {
+public class Segregate_Zeros_And_Ones {
 
     // Function to separate 0s and 1s
     static void segregate0and1(int[] arr) {
