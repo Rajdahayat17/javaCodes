@@ -1,6 +1,6 @@
 package Arrays;
 
-public class MultipleOddIndexBY2AndAdd10ToEven {
+public class Multiple_OddIndexBY2AndAdd10ToEven {
     public static void main(String[] args) {
 
         // Array declaration and initialization
