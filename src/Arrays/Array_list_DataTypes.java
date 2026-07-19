@@ -34,6 +34,7 @@ public class Array_list_DataTypes {
         ArrayList<Double> doubleList = new ArrayList<>();
 
         doubleList.add(10.5);
+
         doubleList.add(20.75);
 
         doubleList.add(30.99);
