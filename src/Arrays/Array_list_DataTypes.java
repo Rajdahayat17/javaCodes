@@ -96,7 +96,6 @@ public class Array_list_DataTypes {
         boolList.add(true);
         boolList.add(false);
         boolList.add(true);
-
         System.out.println("Boolean List : " + boolList);
 
 
