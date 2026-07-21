@@ -6,7 +6,6 @@ public class Array_Basics {
         // indexing
         System.out.println(x[5]);
 
-
         // updating  elements
         x[3]=52;
         System.out.println(x[3]);
