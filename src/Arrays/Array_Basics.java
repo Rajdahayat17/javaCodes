@@ -15,6 +15,5 @@ public class Array_Basics {
          arr[1]=6;
          arr[2]=7;
          arr[3]=-8;
-
     }
 }
