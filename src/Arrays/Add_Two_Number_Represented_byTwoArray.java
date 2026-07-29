@@ -39,7 +39,6 @@ public class Add_Two_Number_Represented_byTwoArray {
         int[] arr1 = {9, 9, 9};
         int[] arr2 = {1};
         ArrayList<Integer> ans = findArraySum(arr1, arr2);
-
         System.out.println("Sum: " + ans); // Output: [1, 0, 0, 0]
     }
 }
