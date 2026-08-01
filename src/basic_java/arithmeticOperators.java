@@ -2,7 +2,6 @@ package basic_java;
 
 public class arithmeticOperators {
     public static void main(String[] args){
-
         // Declare and initialize two integer variables
         int a = 7, b = 4;
 
