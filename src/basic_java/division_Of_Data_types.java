@@ -1,8 +1,6 @@
 package basic_java;
 
-import org.w3c.dom.ls.LSOutput;
-
-public class divisionOfDatatypes {
+public class division_Of_Data_types {
     public static void main(String[] args) {
 
         // Both 5 and 2 are integers.
