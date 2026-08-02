@@ -3,6 +3,7 @@ package basic_java;
 public class division_Of_Data_types {
     public static void main(String[] args) {
 
+
         // Both 5 and 2 are integers.
         // Integer division removes the decimal part.
         // 5 / 2 = 2, then 2 is stored in double y as 2.0
