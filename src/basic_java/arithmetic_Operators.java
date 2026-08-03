@@ -1,6 +1,6 @@
 package basic_java;
 
-public class arithmeticOperators {
+public class arithmetic_Operators {
     public static void main(String[] args){
 
         // Declare and initialize two integer variables
