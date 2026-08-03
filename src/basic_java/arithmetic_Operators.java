@@ -6,6 +6,7 @@ public class arithmetic_Operators {
         // Declare and initialize two integer variables
         int a = 7, b = 4;
 
+
         // Addition of two integers
         System.out.println(a + b);
 
