@@ -1,6 +1,6 @@
 package basic_java;
 
-public class IncrementDecrementOperators {
+public class Increment_Decrement_Operators {
     public static void main(String[] args) {
 
         // Initialize variable a with value 29
