@@ -2,7 +2,6 @@ package basic_java;
 
 public class Increment_Decrement_Operators {
     public static void main(String[] args) {
-
         // Initialize variable a with value 29
         int a = 29;
         System.out.println(a); // Output: 29
