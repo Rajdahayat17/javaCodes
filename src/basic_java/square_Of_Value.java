@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class square_Of_Value {
     public static void main(String[] args) {
-
         // Create Scanner object to take input from user
         Scanner sc = new Scanner(System.in);
 
