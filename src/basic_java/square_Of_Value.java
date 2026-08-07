@@ -2,7 +2,7 @@ package basic_java;
 
 import java.util.Scanner;
 
-public class squareOfaValue {
+public class square_Of_Value {
     public static void main(String[] args) {
 
         // Create Scanner object to take input from user
