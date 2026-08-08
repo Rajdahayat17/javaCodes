@@ -2,6 +2,7 @@ package basic_java;
 
 public class char_data_types {
     public static  void main(String[] args){
+
         char a = 'a';
         System.out.println(a);
         char b = 'b';
