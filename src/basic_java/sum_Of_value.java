@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class sum_Of_value {
     public static void main(String[] args) {
 
+
         // Declare three integer variables
         int a, b, c;
 
