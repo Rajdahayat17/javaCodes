@@ -2,7 +2,7 @@ package basic_java;
 
 import java.util.Scanner;
 
-public class sumOfvalue {
+public class sum_Of_value {
     public static void main(String[] args) {
 
         // Declare three integer variables
