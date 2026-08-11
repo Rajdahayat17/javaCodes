@@ -2,7 +2,6 @@ package basic_java;
 
 public class number_print {
     public static void main(String[] args) {
-
         // Prints the integer value 87
         System.out.println(87);
 
