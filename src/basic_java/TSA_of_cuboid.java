@@ -1,6 +1,6 @@
 package basic_java;
 
-public class TSAofcuboid {
+public class TSA_of_cuboid {
     public static void main(String[] args) {
 
         // Total Surface Area (TSA) of a cuboid is calculated using:
