@@ -1,10 +1,8 @@
 package if_else;
 
-import com.sun.security.jgss.GSSUtil;
-
 import java.util.Scanner;
 
-public class nestedIfElse {
+public class nested_If_Else {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
