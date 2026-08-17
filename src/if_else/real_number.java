@@ -2,7 +2,7 @@ package if_else;
 
 import java.util.Scanner;
 
-public class realnumber {
+public class real_number {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
