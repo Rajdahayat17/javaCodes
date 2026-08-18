@@ -2,7 +2,7 @@ package if_else;
 
 import java.util.Scanner;
 
-public class ternaryVarible {
+public class ternary_Varible {
     public static void main(String[] args) {
 
         // User se input lene ke liye Scanner object banaya
