@@ -27,7 +27,6 @@ public class side_Of_traraginl {
         } else {
             System.out.println("invalid triangle");
         }
-
         // Close Scanner
         input.close();
     }
