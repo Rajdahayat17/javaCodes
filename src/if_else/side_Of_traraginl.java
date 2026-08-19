@@ -2,7 +2,7 @@ package if_else;
 
 import java.util.Scanner;
 
-public class sideOftraraginl {
+public class side_Of_traraginl {
     public static void main(String[] args) {
 
         // Create Scanner object to take input from user
