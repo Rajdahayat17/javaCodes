@@ -7,7 +7,6 @@ public class ternary_Basic {
         Scanner sc = new Scanner(System.in);
         System.out.println("enter the number");
         int n = sc.nextInt();
-
 //        if (n % 2 == 0) {     // ye chiz hm jb use karet hai jab ham if ekse use karet hai ek or method hai is ko find karne ki
 //            System.out.println("even number");
 //        }else System.out.println("odd number");
