@@ -2,7 +2,7 @@ package if_else;
 
 import java.util.Scanner;
 
-public class profitAndLoss {
+public class profit_And_Loss {
     public static void main(String[] args){
 
         // User se input lene ke liye Scanner object
