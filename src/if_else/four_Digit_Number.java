@@ -6,7 +6,6 @@ public class four_Digit_Number {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
-
         // Take a number as input from the user
         System.out.println("Enter a number");
         int number = input.nextInt();
@@ -20,13 +19,11 @@ public class four_Digit_Number {
         if (number > 999 && number < 10000) {
             System.out.println("4 digit number");
         } else {
-
             // If the number is less than 1000
             // or greater than 9999,
             // then it is not a 4-digit number
             System.out.println("Not a 4 Digit Number");
         }
-
         input.close();
     }
 }
