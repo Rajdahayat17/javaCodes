@@ -2,7 +2,7 @@ package if_else;
 
 import java.util.Scanner;
 
-public class fourDigitNumber {
+public class four_Digit_Number {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
