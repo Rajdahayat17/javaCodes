@@ -9,7 +9,6 @@ public class four_Digit_Number {
         // Take a number as input from the user
         System.out.println("Enter a number");
         int number = input.nextInt();
-
         // A 4-digit number lies between 1000 and 9999
         //
         // number > 999  means number is at least 1000
