@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class four_Digit_Number {
     public static void main(String[] args) {
-
         Scanner input = new Scanner(System.in);
         // Take a number as input from the user
         System.out.println("Enter a number");
