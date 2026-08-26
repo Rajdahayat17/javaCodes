@@ -3,6 +3,7 @@ package if_else;
 import java.util.Scanner;
 
 public class fibdTheLies1stQuadrant {
+
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("enter x value ");
