@@ -12,6 +12,7 @@ public class ternary_Varible {
         System.out.println("Enter the number:");
         int n = sc.nextInt();
 
+
         /*
          * Ternary Operator:
          * Syntax:
