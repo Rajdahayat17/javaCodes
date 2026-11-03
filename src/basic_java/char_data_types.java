@@ -24,6 +24,5 @@ public class char_data_types {
         int z= 69;
         char  ch2= (char)z;
         System.out.println(ch2);
-
     }
 }
