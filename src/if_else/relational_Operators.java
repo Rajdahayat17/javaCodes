@@ -1,6 +1,6 @@
 package if_else;
 
-public class relationalOperators {
+public class relational_Operators {
     public static void main(String[] args){
         System.out.println(9<7); // ye sb relationa  l operators hai
         System.out.println(9>7);
